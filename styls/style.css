@@ -17,6 +17,12 @@
     font-size: 16px;
     font-weight: bold;
 }
+.butto:hover{
+     transform: scale(1.05);
+      transition: 0.3s;
+    background-color: rgb(72, 202, 202);
+}
+ 
 
 /*nav styles */
 nav{
@@ -138,8 +144,23 @@ display: flex;
     height: 40px;
     width: 40px;
     border-radius:9999px ;
-    /* margin: 173px ; */
+    margin-top:24px;
+    
 }
+.card-fottar-main{
+     margin-left:12px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+.card-fotter-description{ 
+    margin-top:20px;
+  color: rgba(179, 179, 179, 1);
+}
+.card-footer-tittle{
+    color: rgba(117, 117, 117, 1);
+    gap:2px ;
+}
+
 
  .card{
     border: 0.5px;
@@ -217,3 +238,32 @@ main input[type="text" ],[type="email"] , main textarea {
 
 }
  /* Footer section */
+ .footer-contant{
+    background-color:rgba(255, 255, 255, 1);
+    padding: 118px 305px 103px 304px;
+    text-align: center;
+
+
+ }
+ ul li {
+    list-style: none;
+ }
+ ul{
+    display: flex;
+    justify-content: center;
+    gap:48px;
+    color: rgba(137, 135, 161, 1);
+ }
+ .web-subtittle{
+    max-width:531px;
+    max-height:48px ;
+    justify-self: center;
+    font-size: 17px;
+    color: rgba(137, 135, 161, 1);
+ }
+ .website-name{
+     font-weight:900;
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+     margin-bottom: 8px; 
+ }
