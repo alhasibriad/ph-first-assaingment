@@ -179,4 +179,41 @@ display: flex;
     width: 840px;
     height:364.77px ;
 }
- 
+/* get-in-touch */
+.tuch-tittle{
+    font-size:97px;
+    font-weight: bold;
+    max-width:528px;
+    max-height:232px ;
+    padding-bottom:100px;
+    padding-top:80px;
+}
+.get-in-touch{
+    display: flex;
+    margin-top: 92.23px;
+    justify-content: space-between;
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.form-decor{
+    width: 497px;
+    border: none;
+    border-radius: 10px;
+    border:1px solid rgba(214, 221, 237, 1);
+}
+.fomr-tittle{
+    font-size: 18px;
+    font-weight:500;
+    color: rgba(0, 0, 0, 1);
+}
+main input[type="text" ],[type="email"] , main textarea {
+    
+    font-size:20px;
+    font-weight: normal;
+    padding-bottom:20px ;
+    padding-left:32px;
+    padding-top:20px ;
+
+
+}
+ /* Footer section */
