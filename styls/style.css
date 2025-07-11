@@ -154,6 +154,29 @@ display: flex;
     display: flex;
     gap: 20px;
  }
+ /* Batter */
+ .batter-tittle{
+    font-size: 50px;
+    font-weight: bold;
 
-
+ }
+ .batter-description{
+    
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+ }
+.batter{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 1);
+    max-height: 696.77px;
+    padding: 71px 150px;
+    margin-top: 137px;
+    border-radius: 14px;
+}
+.batter-img{
+    margin-top: 20px;
+    border-radius: 48px;
+    width: 840px;
+    height:364.77px ;
+}
  
